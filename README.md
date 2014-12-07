@@ -1,4 +1,4 @@
-Keylogger
+readme
 =========
 
-simple anti-virus evading keylogger.
+simple python program
